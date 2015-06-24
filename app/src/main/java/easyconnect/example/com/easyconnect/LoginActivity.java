@@ -7,10 +7,9 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
-
-import at.markushi.ui.CircleButton;
 
 
 public class LoginActivity extends Activity implements View.OnClickListener{
@@ -26,7 +25,7 @@ public class LoginActivity extends Activity implements View.OnClickListener{
         ImageButton facebookLoginButton = (ImageButton)findViewById(R.id.facebookLoginButton);
         facebookLoginButton.setOnClickListener(this);
 
-        CircleButton next = (CircleButton)findViewById(R.id.next);
+        Button next = (Button)findViewById(R.id.next);
         next.setOnClickListener(this);
         // do the same for the linkedinLoginButton and the other buttons
 
